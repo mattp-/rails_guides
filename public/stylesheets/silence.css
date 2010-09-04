@@ -1,0 +1,9 @@
+/*** Links are foo
+--------------------------------------- */
+
+#silence a, #silence a:link, #silence a:visited { color: #ff9313; }
+#silence a.foo_link { text-decoration: none; font-family: Verdana; font-size: 11; vertical-align: 2;}
+#silence a:hover.foo_link { }
+#silence .brace { color: #fff; }
+#silence a.foo_link .key { color: #aaaaaa; }
+#silence a.foo_link .foo { color: #ffcc00; }

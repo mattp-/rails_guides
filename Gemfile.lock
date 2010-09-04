@@ -1,0 +1,15 @@
+--- 
+dependencies: 
+  sinatra: 
+    group: 
+    - :default
+    version: = 1.0
+specs: 
+- rack: 
+    version: 1.0.1
+- sinatra: 
+    version: "1.0"
+hash: 9be7607710ab9ae0cd5fcb909957a4e0c0685941
+sources: 
+- Rubygems: 
+    uri: http://gemcutter.org

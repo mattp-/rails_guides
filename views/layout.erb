@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>History of Rails Guides </title>
+
+		<link rel="stylesheet" type="text/css" href="stylesheets/silence.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+		<link rel="stylesheet" type="text/css" href="../stylesheets/main.css" />
+	</head>
+	<body class="guide">			
+		<div id="topNav">
+	    <div class="wrapper">
+			<div style='vertical-alignment:middle;'>
+					<span id="silence">
+					  <a class='foo_link' href='http://foo.raflabs.com'>
+						<span class='brace'>{</span> 
+						<span class='key'>:silence</span>
+						<span class='brace'>=></span>
+						<span class='foo'>:foo</span>
+						<span class='brace'>}</span>
+					  </a>
+					</span>
+			</div>
+	    </div>
+	  </div>
+	  
+		<div id="header">
+			<div class="wrapper clearfix">
+				<h1><a href="index.html" title="Return to home page">Guides.rubyonrails.org</a></h1>
+			</div>
+		</div>
+
+		<div id="feature">
+			<div class="wrapper">
+				<h2>History of Ruby on Rails Guides</h2>
+				<p>This site has been made for you to access different versions of Rails Guides.</p>
+			</div>
+		</div>		
+		<div id="container">
+			<div class="wrapper">
+				<div id="mainCol">
+					<%=yield%>
+				</div>				
+			</div>
+		</div>
+		
+		<%= partial :_footer %>
+	</body>
+</html>
