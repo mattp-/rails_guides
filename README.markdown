@@ -1,7 +1,7 @@
 Rails Guides
 ============
 
-This is the source code of [railsguide.heroku.com](railsguide.heroku.com), [rorguides.heroku.com](rorguides.heroku.com) and [guides.heroku.com](guides.heroku.com).
+This is the source code of [railsguide.heroku.com](http://railsguide.heroku.com), [rorguides.heroku.com](http://rorguides.heroku.com) and [guides.heroku.com](http://guides.heroku.com).
 
 It's a [Sinatra](http://www.sinatrarb.com) application that allows us to browse and download different versions of the Rails Guides.
 
